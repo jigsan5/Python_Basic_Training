@@ -15,8 +15,8 @@ df2 = df.dropna(axis=1,how='all')
 
 print (df2.shape[1])
 
-df2.to_csv('j:/Balaji_Test.csv')
-read_CSV = pd.read_csv('j:/Balaji_Test.csv') 
+df2.to_csv('j:/normal.csv')
+read_CSV = pd.read_csv('j:/normal.csv') 
 
 daily_returns = df2.pct_change()
 # print (read_CSV.tail())
